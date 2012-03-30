@@ -362,7 +362,7 @@ int s5pv310_get_max_speed(void)
 
 			switch (pkg_id & 0x7) {
 			case 5:
-				max_speed = CPUFREQ_1400MHZ;
+				max_speed = 1600000;
 				break;
 			case 1:
 			case 7:
